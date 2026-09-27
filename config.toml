@@ -15,8 +15,90 @@ build-mode = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 enable-update-checks = true
+exclusive-patches = true
+included-patches = """\
+  'Add to queue' \
+  'Alternative thumbnails' \
+  'Ambient mode' \
+  'Bypass image region restrictions' \
+  'Bypass link redirects' \
+  'Captions' \
+  'Channel search' \
+  'Check watch history domain name resolution' \
+  'Copy video link' \
+  'Disable DRC audio' \
+  'Disable QUIC protocol' \
+  'Disable Shorts resuming on startup' \
+  'Disable double tap actions' \
+  'Disable fullscreen gestures' \
+  'Disable player popup panels' \
+  'Disable playlist autoplay' \
+  'Disable rolling number animations' \
+  'Disable scrolling speed limit' \
+  'Disable sign in to TV popup' \
+  'Disable video codecs' \
+  'Double tap to seek' \
+  'Downloads' \
+  'Exit fullscreen mode' \
+  'Force fullscreen landscape' \
+  'Force original audio' \
+  'Fullscreen video scale' \
+  'GmsCore support' \
+  'Hide Shorts components' \
+  'Hide ads' \
+  'Hide autoplay preview' \
+  'Hide end screen cards' \
+  'Hide end screen suggested video' \
+  'Hide info cards' \
+  'Hide layout components' \
+  'Hide player flyout menu components' \
+  'Hide player overlay buttons' \
+  'Hide related video overlay' \
+  'Hide related videos' \
+  'Hide timestamp' \
+  'Hide video action buttons' \
+  'Loop video' \
+  'Media notification controls' \
+  'Miniplayer' \
+  'Mute button' \
+  'Navigation bar' \
+  'Open Shorts in regular player' \
+  'Open channel of live avatar' \
+  'Open links externally' \
+  'Open system share sheet' \
+  'Open videos fullscreen' \
+  'Override YouTube Music buttons' \
+  'Play all' \
+  'Playback in feeds' \
+  'Playback speed' \
+  'PoToken provider' \
+  'Reload video' \
+  'Remember live stream playback position' \
+  'Remove background playback restrictions' \
+  'Remove viewer discretion dialog' \
+  'Return YouTube Dislike' \
+  'Sanitize sharing links' \
+  'Save to Watch later' \
+  'Seekbar' \
+  'Settings menu filter' \
+  'Shorts autoplay' \
+  'SponsorBlock' \
+  'Spoof app version' \
+  'Spoof device dimensions' \
+  'Spoof video streams' \
+  'Swipe controls' \
+  'Theme' \
+  'Video quality' \
+  'Voice over translation' \
+  'Wide search bar' \
+  """
+patcher-args = """\
+  -OdarkThemeColor=''"#290025"'' \
+  -OlightThemeColor=''"#FCCFF3"'' \
+  """
 
 [Music-Morphe]
+enabled = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -28,6 +110,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 enable-update-checks = true
 
 [Reddit-Morphe]
+enabled = false
 app-name = "Reddit"
 rv-brand = "Morphe"
 build-mode = "both"
@@ -38,6 +121,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage
 dpi = "120-640dpi"
 
 [GooglePhotos]
+enabled = false
 build-mode = "both"
 patches-source = "RookieEnough/De-Vanced"
 rv-brand = "DeVanced"
@@ -47,6 +131,7 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 enable-update-checks = true
 
 [Twitter]
+enabled = false
 patches-source = "crimera/piko-newx"
 cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Piko"
