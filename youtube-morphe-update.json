@@ -1,6 +1,6 @@
 {
-  "version": "v21.16.256 (patches 1.45.0.mpp)",
-  "versionCode": 2,
-  "zipUrl": "https://github.com/sohan-f/idk/releases/download/2/youtube-morphe-module-v21.16.256-all.zip",
+  "version": "v21.16.256 (patches 1.46.0.mpp)",
+  "versionCode": 3,
+  "zipUrl": "https://github.com/sohan-f/idk/releases/download/3/youtube-morphe-module-v21.16.256-all.zip",
   "changelog": "https://raw.githubusercontent.com/sohan-f/idk/update/build.md"
 }
