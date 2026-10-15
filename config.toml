@@ -93,8 +93,9 @@ included-patches = """\
   'Wide search bar' \
   """
 patcher-args = """\
-  -OdarkThemeColor=''"#290025"'' \
-  -OlightThemeColor=''"#FCCFF3"'' \
+  -e 'Theme' \
+  -OdarkThemeColor='#290025' \
+  -OlightThemeColor='#FCCFF3' \
   """
 
 [Music-Morphe]
