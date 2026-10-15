@@ -17,18 +17,23 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.y
 enable-update-checks = true
 exclusive-patches = true
 included-patches = """\
+  'AI channel filter' \
   'Add to queue' \
-  'Alternative thumbnails' \
   'Ambient mode' \
   'Bypass image region restrictions' \
   'Bypass link redirects' \
   'Captions' \
   'Channel search' \
+  'Channel whitelist' \
   'Check watch history domain name resolution' \
+  'Copy text' \
   'Copy video link' \
+  'DeArrow' \
   'Disable DRC audio' \
   'Disable QUIC protocol' \
   'Disable Shorts resuming on startup' \
+  'Disable auto feed refresh' \
+  'Disable continue watching prompt' \
   'Disable double tap actions' \
   'Disable fullscreen gestures' \
   'Disable player popup panels' \
@@ -42,6 +47,7 @@ included-patches = """\
   'Exit fullscreen mode' \
   'Force fullscreen landscape' \
   'Force original audio' \
+  'Force system font' \
   'Fullscreen video scale' \
   'GmsCore support' \
   'Hide Shorts components' \
@@ -55,6 +61,7 @@ included-patches = """\
   'Hide player overlay buttons' \
   'Hide related video overlay' \
   'Hide related videos' \
+  'Hide status bar' \
   'Hide timestamp' \
   'Hide video action buttons' \
   'Loop video' \
@@ -68,20 +75,26 @@ included-patches = """\
   'Open system share sheet' \
   'Open videos fullscreen' \
   'Override YouTube Music buttons' \
+  'Picture-in-picture button' \
   'Play all' \
+  'Playback buffer' \
   'Playback in feeds' \
   'Playback speed' \
+  'Player icon style' \
   'PoToken provider' \
   'Reload video' \
   'Remember live stream playback position' \
   'Remove background playback restrictions' \
   'Remove viewer discretion dialog' \
+  'Restore original titles' \
   'Return YouTube Dislike' \
   'Sanitize sharing links' \
   'Save to Watch later' \
   'Seekbar' \
   'Settings menu filter' \
   'Shorts autoplay' \
+  'Shorts icon style' \
+  'Skip silence' \
   'SponsorBlock' \
   'Spoof app version' \
   'Spoof device dimensions' \
